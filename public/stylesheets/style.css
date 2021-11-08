@@ -2,25 +2,26 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #eee;
-  color: #555;
+  background-color:#eee;
+  color: #000;
 }
 
 h1 {
+  margin-top: 10px;
   color: #18ACC4;
 }
 
 h2 {
+  margin-top: 10px;
   color: #007A8D;
 }
 
-img {
+.custom-img {
   max-height: 150px;
-  border-radius: 1px;
-  border: darkblue;
+  border: 2px solid darkblue;
 }
 
-.form-control {
+.form-control{
   background-color: #ddd;
   color: #1F2D30;
 }
@@ -28,6 +29,10 @@ img {
 .form-control:focus {
   background-color: #ddd;
   color: #1F2D30;
+}
+
+.btn-custom {
+  margin-top: 55px;
 }
 
 .btn-ajust {
